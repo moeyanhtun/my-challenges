@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Prata&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+.first-section{
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-bottom: 100px;
+}
+/* navbar  */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    font-size: large;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Prata', serif;
+    border-bottom: 1px solid yellow;
+    position: fixed;
+    width: 90%;
+    top: 0;
+}
+.menu-section{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    list-style: none;
+}
+.menu-section li>a{
+    color: white;
+    text-decoration: none;
+    color:rgb(192, 192, 192);
+    font-family: 'Inter', sans-serif;
+}
+/* text section */
+.text{
+    width: 75%;
+    text-align: justify;
+    margin-top: 130px;
+}
+.text .heading-text{
+    color: white;
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Prata', serif;
+}
+.text .pragraph{
+    color: rgb(192, 192, 192);
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Inter', sans-serif;
+}
+/* <!-- brand section close --> */
+.brand-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.brand-logo .Walmart{
+   width: 100px;
+}
+.brand-logo .JP{
+    width: 110px;
+}
+ .brand-logo .Visa{
+    width: 70px;
+}
+.brand-logo .Tinder{
+    width: 120px;
+}
+.brand-logo .Samsung{
+    width:8rem;
+}
+.brand-logo .Verizon{
+    width: 120px;
+}
+/* crad sectoin  */
+.card-section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card-section .card{
+    width: 48%;
+}
+.card-section .card img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.text-section a{
+    color: white;
+    text-decoration: none;
+    font-size: 3rem;
+    font-family: 'Prata', serif;
+}
+.card-section .text-section .crad-text{
+    color: rgb(192, 192, 192);
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+}
+/* sectoin-2  */
+.section-2{
+    background-color: rgb(64, 64, 64);
+    padding-right: 5%;
+    padding-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.text-section2 { 
+    margin-top: 46px;
+ width: 48%;
+}
+.text-section1{
+    width: 48%;
+}
+.text-section1 .text2{
+    margin-bottom: 20px;
+}
+.text-section1 .text1{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 3rem;
+    color: white;
+    font-family: 'Prata', serif;
+}
+.text-section1 .text2{
+    color: rgb(192, 192, 192);
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+.text-section2 .text2{
+    color: rgb(192, 192, 192);
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 25px;
+}
+/* section3 open */
+.section3{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 70px;
+    margin-top: 70px;
+}
+    button{
+    background-color: yellow;
+    color: black;
+    font-size: small;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    font-family: 'Prata', serif;
+}   
+.section3 .heading-text{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Prata', serif;
+}
+.section3 .pragraph{
+    font-size: 15px;
+    color: rgb(192, 192, 192);
+    margin-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+}
+/* footer section  */
+.footer{
+    background-color: rgb(64, 64, 64);
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.footer .content h1{
+    color: white;
+    font-size: larger;
+    font-family: 'Prata', serif;
+}
+.footer .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer .content .icon img{
+    margin-left: 10px;
+}
